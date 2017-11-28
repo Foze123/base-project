@@ -1,0 +1,15 @@
+{
+  "name": "freelancer",
+  "authors": "thesupernova",
+  "description": "this project is for Employer",
+  "main": "",
+  "keywords": "frontend",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^2.2.2",
+    "angular": "^1.0.3",
+    "angular-resource": "^1.0.3",
+    "angular-route": "^1.0.3"
+  }
+}

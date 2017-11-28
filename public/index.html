@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="project">
+
+<head>
+
+    <!-- build:css styles/mycss.css -->
+    <link rel="stylesheet" href="styles/mycss.css">
+    <!-- endbuild -->
+    <!-- build:css styles/vendor.css -->
+    <link href="../bower_components/bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../bower_components/bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor.js --> // concatenate to vendor.js
+    <!-- bower:js --> // tells wiredep to inject all bower dependencies
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="../bower_components/angular-route/angular-route.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/app.js -->
+    <script src="scripts/project.js"></script>
+    <script src="scripts/mysql.js"></script>
+    <!-- endbuild -->
+    
+ 
+</head>
+
+<body>
+<div class="container tasks">
+    <h2>
+        Preparing the infrastructure for the project(Node-Angular-Mysql)
+    </h2>
+
+    <div ng-view style='width:500px'>
+    </div>
+</div>
+</div>
+<!-- /container -->
+</body>
+
+</html>
